@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { TableViewComponent } from './table-view/table-view.component';
+import { TableViewEditComponent } from './table-view/table-view-edit/table-view-edit.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { TableViewComponent } from './table-view/table-view.component';
     AppComponent,
     HeaderComponent,
     LoginComponent,
-    TableViewComponent
+    TableViewComponent,
+    TableViewEditComponent
   ],
   imports: [
     BrowserModule
