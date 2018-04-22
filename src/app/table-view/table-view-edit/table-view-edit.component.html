@@ -1,3 +1,30 @@
-<p>
-  table-view-edit works!
-</p>
+<div class="container">
+ <form action="">
+    <div class="form-row">
+      <div class="col-2">
+        <label for="dateEntry">Datum</label>
+        <input type="date" class="form-control" id="dateEntry">
+      </div>
+     <div class="col-8">
+        <label for="item">Posten</label>
+        <input type="text" class="form-control" id="item">
+      </div>
+      <div class="col-2">
+        <label for="amount">Betrag</label>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">€</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Amount">
+        </div>
+      </div>
+      
+        <button type="button" class="btn btn-success" (click)="performClick()">Submit</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+        <button type="button" class="btn btn-primary">Clear</button>
+      
+      
+    </div>
+  </form>
+</div>
+

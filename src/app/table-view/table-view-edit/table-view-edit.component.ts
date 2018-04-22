@@ -1,3 +1,4 @@
+import { TableViewComponent } from './../table-view.component';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TableViewEditComponent implements OnInit {
 
+  test = new TableViewComponent();
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  performClick() {
+    this.test.performAction();
   }
 
 }
