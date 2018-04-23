@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { TableViewComponent } from './table-view/table-view.component';
 import { TableViewEditComponent } from './table-view/table-view-edit/table-view-edit.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TableViewEditComponent } from './table-view/table-view-edit/table-view-
     HeaderComponent,
     LoginComponent,
     TableViewComponent,
-    TableViewEditComponent
+    TableViewEditComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule
